@@ -1,3 +1,7 @@
+// Div1 - 450
+// Algo:
+// - DP: f(S, x) = minimum cost to buy from all shops in set S & last shop is x
+//     - Update: f(S, x) --> f(S + {y}, y)
 #include <bits/stdc++.h>
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)

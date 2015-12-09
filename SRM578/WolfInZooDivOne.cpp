@@ -1,3 +1,8 @@
+// Div1 - 500
+// Algo:
+// - DP: f(x, y) = number of ways to put wolf in positions 1..y, with the last 2 wolfs at
+//   positions x and y
+//      - Update: f(x, y) --> f(y, z) if can put >= 3 wolfs in range [x, z]
 #include <bits/stdc++.h>
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
