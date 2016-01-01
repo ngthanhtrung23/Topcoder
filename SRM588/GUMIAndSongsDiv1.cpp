@@ -1,3 +1,10 @@
+// Div1 - 250
+// Algo:
+// - We consider the case where there are at least 2 songs in the optimal result.
+// - Let A, B be the songs with smallest and largest tones. Then, minimum time to
+//   sing all songs equal to:
+//   tone(B) - tone(A) + sum(durations[x] for x in optimal result)
+// - Thus, we can just consider all pairs of (A, B) and greedily find the result
 #include <bits/stdc++.h>
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)

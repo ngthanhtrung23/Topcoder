@@ -1,3 +1,11 @@
+// Div1 - 450
+// Algo: BFS
+// - Observations:
+//     - we can "color" the white keys as soon as we get them.
+//     - For a set of opened doors, we can get the total number of keys that we
+//       currently have
+// - BFS with state (opened doors, number of red keys). From these two, we can
+//   get the number of green keys
 #include <bits/stdc++.h>
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
