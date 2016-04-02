@@ -1,3 +1,10 @@
+// Div1 - 1000
+// Algo: math
+// - Area(polygon) = sum(area of directed triangle)
+// --> for each triangle (O, a[i], a[j]), calculate probability that
+//     edge (a[i], a[j]) belongs to convex hull and multiply with directed area
+// - Probability = p[i] * p[j] * (probability that all other points are in same half-plane and
+//   no point is in between a[i] and a[j])
 #include <bits/stdc++.h>
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
