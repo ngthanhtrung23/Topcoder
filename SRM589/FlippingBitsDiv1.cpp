@@ -4,7 +4,7 @@
 //   S[i] = S[i+M]
 // - Max |S| = 300
 // - If M <= 17 --> brute force the first M character, then DP
-// - If N/M <= 17 --> at most 17 group, brute force the flip k*M operations,,,
+// - If N/M <= 17 --> at most 17 group, brute force the flip k*M operations,
 //   then solve using greedy
 
 #include <bits/stdc++.h>
